@@ -1,0 +1,190 @@
+body{
+  background-color: black;
+  opacity: 0.9;
+}
+
+html{
+  opacity: 0.9;
+}
+
+.tealogo{
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+  margin-top:8px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+span a{
+    color: seashell;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+}
+
+header{
+  display: flex;
+  height: 69px;
+  width: 100%;
+  font-family: Helvetica;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 5;
+  background-color: black;
+    margin: -8px !important;
+}
+.blackbackground{
+  background-color: black;
+}
+.blackbackground h1,h4{
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
+  opacity: 0.9;
+}
+.teaofmonth h1,h4{
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
+  opacity: 0.9;
+}
+h4{
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
+  opacity: 0.9;
+}
+.missioncontent{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.teapics{
+  width:1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.teapicsimage img{
+  width: 300px;
+  height: 200px;
+}
+
+.locations{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width:1200px;
+  height: 500px;
+  margin-left:auto;
+  margin-right:auto;
+  background-image: url("file:///C:/projects/TeaCozy/resources/images/locations_background.jpg");
+}
+.locationsholder{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top :15px;
+}
+
+
+
+.downtown{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+.oakdale{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin-left: 40px;
+}
+.bayside{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin-left:40px;
+}
+
+.bayside h3,p
+{
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+.oakdale h3,p
+{
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+.downtown h3,p{
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+h1{
+  color: white;
+}
+
+.locationstext{
+  position: relative;
+  margin-top:100px;
+}
+
+.locations h2{
+  color: seashell;
+  text-align: center;
+}
+
+.mission{
+
+  height: 700px;
+  weight: 200px;
+  margin-top:48px;
+  background-image: url("file:///C:/projects/TeaCozy/resources/images/mission_background.jpg");
+  background-position:center top;
+  background-repeat:no-repeat
+}
+
+.footer h5{
+  color: seashell;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.contacts h2,h5{
+  color: seashell;
+  text-align: center;
+}
+.contacts{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
